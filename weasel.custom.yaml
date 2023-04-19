@@ -8,7 +8,7 @@ patch:
   style/horizontal: true
   style/color_scheme: soak
   style/font_point: 12
-  style/font_face: "霞鹜文楷"
+  style/font_face: "LXGW WenKai Mono"
   preset_color_schemes:
     soak:
       name: Ink
