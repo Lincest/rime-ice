@@ -59,7 +59,7 @@ ascii_composer:
   good_old_caps_lock: true  # true | false
   switch_key:
     Caps_Lock: clear      # commit_code | commit_text | clear
-    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_L: noop  # commit_code | commit_text | inline_ascii | clear | noop
     Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
     Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
     Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
@@ -194,8 +194,8 @@ key_binder:
 
     # numbered_mode_switch:
     # - { when: always, accept: Control+Shift+1, select: .next }               # 在最近的两个方案之间切换
-    # - { when: always, accept: Control+Shift+2, toggle: ascii_mode }          # 切换中英
-    - { when: always, accept: Control+Shift+3, toggle: ascii_punct }           # 切换中英标点
+    - { when: always, accept: Control+space, toggle: ascii_mode }          # 切换中英
+    - { when: always, accept: Control+period, toggle: ascii_punct }           # 切换中英标点
     - { when: always, accept: Control+Shift+4, toggle: traditionalization }    # 切换简繁
     # - { when: always, accept: Control+Shift+5, toggle: full_shape }          # 切换全半角
 
