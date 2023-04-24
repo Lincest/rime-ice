@@ -27,9 +27,9 @@ show_notifications_when: appropriate
 # 可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
 app_options:
   # com.apple.Spotlight:
-  #   ascii_mode: true    # 开启默认英文
-  # com.microsoft.VSCode:
-  #   ascii_mode: false   # 关闭默认英文
+  #   ascii_mode: true 
+  com.microsoft.VSCode:
+    no_inline: true 
 
 
 style:
