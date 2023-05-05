@@ -179,7 +179,7 @@ key_binder:
     # Option/Alt + ←/→ 切换光标至下/上一个拼音
     - { when: composing, accept: Alt+Left, send: Shift+Left }
     - { when: composing, accept: Alt+Right, send: Shift+Right }
-    - { when: always, accept: Shift+Return, send: Return }
+    - { when: composing, accept: Shift+Return, send: Return }
 
     # 翻页 - =
     - { when: has_menu, accept: minus, send: Page_Up }
