@@ -1,0 +1,13 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	7
+#@/user_id	dc32b531-effb-4e33-b228-85587d1b6c4a
+a si dun 	阿斯頓	c=1 d=1 t=1
+an zhuang 	安裝	c=0 d=0.1 t=2
+an zhuang di zhi 	安裝地址	c=1 d=1 t=3
+di zhi 	地址	c=0 d=0.1 t=2
+shen me dong xi 	什麼東西	c=1 d=1 t=7
+wa 	哇	c=2 d=1.98511 t=5
+wo shi 	我是	c=2 d=1.99005 t=6
